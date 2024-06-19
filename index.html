@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight System Landing Page</title>
+    <link rel="stylesheet" href="show.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Explore Our Flight System</h1>
+            <p>Find and book flights effortlessly with our intuitive platform.</p>
+            <a href="#booking" class="cta-button">Book Now</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="features-content">
+            <h2>Features</h2>
+            <div class="feature-item">
+                <h3>Search Flights</h3>
+                <p>Easily search for flights based on destinations, dates, and preferences.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Compare Options</h3>
+                <p>Compare prices, airlines, and timings to find the best flight for your needs.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Secure Booking</h3>
+                <p>Book flights securely with multiple payment options.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <div class="booking-content">
+            <h2>Book Your Flight</h2>
+            <form id="booking-form">
+                <input type="text" name="from" placeholder="From (City or Airport)" required>
+                <input type="text" name="to" placeholder="To (City or Airport)" required>
+                <input type="date" name="depart_date" required>
+                <input type="date" name="return_date">
+                <button type="submit">Search Flights</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or feedback, feel free to reach out!</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Flight System. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>
